@@ -17,8 +17,10 @@
  *
  */
 
+
 #include <fcntl.h>
 #include <sys/ioctl.h>
+#include <unistd.h> 
 #include "playground.h"
 
 /* Global file descriptor to device file */
